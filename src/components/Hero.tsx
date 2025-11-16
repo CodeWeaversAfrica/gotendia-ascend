@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 
 const Hero = () => {
   return (
-    <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8">
+    <section className="grain-gradient pt-32 pb-20 px-4 sm:px-6 lg:px-8 relative overflow-hidden">
       <div className="container mx-auto">
         <div className="max-w-5xl">
           <div className="mb-6">
