@@ -28,6 +28,9 @@ const Navigation = () => {
             <Link to="/blog" className="text-foreground hover:text-primary transition-colors">
               Blog
             </Link>
+            <Link to="/careers" className="text-foreground hover:text-primary transition-colors">
+              Careers
+            </Link>
             <a href="#contact">
               <Button variant="default" className="bg-primary hover:bg-primary/90">
                 Get Started
@@ -74,6 +77,13 @@ const Navigation = () => {
               onClick={() => setIsOpen(false)}
             >
               Blog
+            </Link>
+            <Link
+              to="/careers"
+              className="block text-foreground hover:text-primary transition-colors"
+              onClick={() => setIsOpen(false)}
+            >
+              Careers
             </Link>
             <a href="#contact" onClick={() => setIsOpen(false)}>
               <Button variant="default" className="w-full bg-primary hover:bg-primary/90">
